@@ -1,0 +1,744 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Ewert&family=Fascinate+Inline&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+/*Fuentes
+font-family: 'Cabin Sketch', cursive;
+font-family: 'Ewert', cursive;
+font-family: 'Fascinate Inline', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Comic Neue', cursive;
+ */
+
+body{
+    background: url('../imagenes/fondo.webp') no-repeat center top;
+    background-size: cover;
+	background-attachment: fixed;
+    height: 100vh;
+    color: white;
+}
+.barra .logo{
+	width: 150px;
+	transition: transform .7s ease-in-out;
+	font-size: 50px;
+	color: white;
+}
+.contenedor{
+    background-color: black;
+    max-width: 80%;
+    margin: auto;
+    border: 6px solid white;
+    border-style: dashed;
+}
+.arriba{
+    margin-bottom: 50px;
+    height: 190px;
+}
+.arriba .logo {
+    width: 30%;
+    height: 190px;
+    display: inline-block;
+    background: none;
+}
+.arriba .titulos{
+    font-family: 'Comic Neue', cursive;
+    width: 60%;
+    float: right;
+    margin: 0;
+    height: 100%;
+}
+.arriba .logo img{
+    margin: 30px auto;
+    width:  80%;
+    background: none;
+   
+}
+
+.titulos h1{
+    color: orange;
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+}
+.titulos p{
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 50px ;
+    margin: 0;
+}
+.titulos h3{
+    margin: 0;
+}
+.productos .productos1{
+    
+    text-align: center;
+    font-family: 'Cabin Sketch', cursive;
+    display: block;
+    margin: auto;
+
+}
+.productos .produtos1 ul{
+    display: inline-block;
+}
+.productos .productos1 ul li{
+    list-style: none;
+}
+.productos .productos1 ul li h1{
+    display: inline-block;
+    font-family: 'Comic Neue', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+.productos .productos1 ul li h2{
+    display: inline-block;
+    font-family: 'Comic Neue', cursive;
+    font-size: 40px;
+    text-align: center;
+    margin-left: 15px;
+}
+
+.productos .combo2{
+    font-size: 20px;
+    text-align: center;
+    margin: 20px auto;
+}
+.productos .combo2 h1{
+    font-family: 'Comic Neue', cursive;
+    margin:auto;
+    font-size: 40px;
+    color: rgb(255, 196, 0);
+    display: inline-block;
+}
+.productos .combo2 h2{
+    display: inline-block;
+}
+
+.bebidas_adicionales{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+.bebidas_adicionales .contenedor-bebidas{
+    width:50%;
+    float: left;
+    
+}
+.bebidas_adicionales .contenedor-bebidas .bebidas ul{
+    list-style: none;
+}
+.bebidas_adicionales .contenedor-bebidas .bebidas li h1{
+    font-size: 25px;
+    font-family: 'Comic Neue', cursive;
+    color: white;
+}
+.bebidas_adicionales .contenedor-bebidas .bebidas li h2{
+    color: rgb(255, 196, 0);
+    font-size: 25px;
+}
+.bebidas_adicionales .contenedor-bebidas .bebidas h1{
+    font-size: 50px;
+    font-family: 'Cabin Sketch', cursive;
+    color: rgb(255, 196, 0);
+}
+.bebidas_adicionales .adicionales{
+    float: right;
+    width: 45%;
+    
+}
+.bebidas_adicionales .adicionales ul{
+    list-style: none;
+    margin-left: 25%;
+}
+.bebidas_adicionales .adicionales li{
+    width: 50%;
+    
+}
+.bebidas_adicionales .adicionales h1{
+    font-size: 50px;
+    font-family: 'Cabin Sketch', cursive;
+    color: rgb(255, 196, 0);
+}
+.bebidas_adicionales .adicionales li h1{
+    font-size: 25px;
+    font-family: 'Comic Neue', cursive;
+    color: white;
+}
+.bebidas_adicionales .adicionales li h2{
+    color: rgb(255, 196, 0);
+    font-size: 25px;
+}
+
+
+
+.footer{
+    text-align: center;
+    margin: 20px auto;
+}
+.footer .visitanos a{
+    display: inline-block;
+    text-decoration: none;
+}
+.footer .visitanos{
+    text-align: center;
+}
+.footer .visitanos span{
+    font-size:50px;
+    display: inline-block;
+    margin-right: 40px;
+}
+
+/*MENU 2 */
+
+.productos{
+    margin: auto;
+}
+
+.imagenes{
+    display: inline-block;
+    height: 50% ;
+    text-align: center;
+    transform: translateY(-40px) ;
+
+}
+.imagenes img{
+    margin: auto;
+    
+}
+
+.contenido .texto-precios{
+    display: inline-block;
+    width: 79%;
+    margin-top: 0;
+    transform: translateY(0px) ;
+    
+}
+.contenido .texto-precios .texto{
+    display: inline-block;
+    width: 100%;
+    margin-top: 0;
+    
+}
+
+.contenido .texto-precios .texto ul li{
+    list-style: none;
+    font-family: 'Comic Neue', cursive;
+    text-align: left;
+    margin: 0;
+    height: fit-content;
+    
+}
+
+.imagenes .alitas {
+    transform: translateY(-310px);
+    width: 150px;
+    margin-top: 0;
+    display: flex;
+}
+.imagenes .papas{
+    transform: translateY(-300px);
+    margin-top: 0;
+    display: flex;
+}
+.imagenes .hamburguesa {
+    transform: translateY(-250px);
+    width: 150px;
+    margin-top: 0;
+    display: flex;
+}
+.imagenes .perro{
+    transform: translateY(-80px);
+    width: 150px;
+    margin-top: 0;
+    display: flex;
+}
+.imagenes .maiz{
+    transform: translateY(-40px);
+    margin-top: 0;
+    display: flex;
+}
+.imagenes .patacon{
+    transform: translateY(-20px);
+    margin-top: 0;
+    display: flex;
+}
+.imagenes .salchicha{
+    transform: translateY(35px);
+    margin-top: 0;
+    display: flex;
+}
+.imagenes .costilla{
+    transform: translateY(75px);
+    margin-top: 0;
+    display: flex;
+}
+.imagenes .papas2{
+    transform: translateY(75px);
+    margin-top: 0;
+    display: flex;
+}
+.contenido .texto-precios .texto ul li ul .comida{
+    list-style: circle;
+    font-family: 'Comic Neue', cursive;
+    margin: auto;
+    width: 50%;
+    display: inline-block;
+}
+
+.contenido .texto-precios .texto ul li h2{ 
+    color: #feee02;
+    margin-right: 50px;
+    width: min-content;
+    display: inline-block;
+    
+}
+.contenido .texto-precios .texto ul li h1{
+    
+    display: inline-block;
+}
+.contenido .texto-precios .texto p{
+    display: inline-block;
+    font-size: 20px;
+}
+@media screen and (max-width: 1500px){
+    
+    .imagenes .alitas {
+        transform: translateY(-450px);
+        width: 150px;
+        margin-top: 0;
+        display: flex;
+    }
+    .imagenes .papas{
+        transform: translateY(-410px);
+        margin-top: 0;
+        display: flex;
+    }
+    .imagenes .hamburguesa {
+        transform: translateY(-250px);
+        width: 150px;
+        margin-top: 0;
+        display: flex;
+    }
+    .imagenes .perro{
+        transform: translateY(-210px);
+        width: 150px;
+        margin-top: 0;
+        display: flex;
+    }
+    .imagenes .maiz{
+        transform: translateY(-130px);
+        margin-top: 0;
+        display: flex;
+    }
+    .imagenes .patacon{
+        transform: translateY(-90px);
+        margin-top: 0;
+        display: flex;
+    }
+    .imagenes .salchicha{
+        transform: translateY(-20px);
+        margin-top: 0;
+        display: flex;
+    }
+    .imagenes .costilla{
+        transform: translateY(55px);
+        margin-top: 0;
+        display: flex;
+    }
+    .imagenes .papas2{
+        transform: translateY(75px);
+        margin-top: 0;
+        display: flex;
+    }
+    }
+@media screen and (max-width: 1000px){
+    
+.imagenes .alitas {
+    transform: translateY(-750px);
+    width: 150px;
+    margin-top: 0;
+    display: flex;
+}
+.imagenes .papas{
+    transform: translateY(-710px);
+    margin-top: 0;
+    display: flex;
+}
+.imagenes .hamburguesa {
+    transform: translateY(-650px);
+    width: 150px;
+    margin-top: 0;
+    display: flex;
+}
+.imagenes .perro{
+    transform: translateY(-210px);
+    width: 150px;
+    margin-top: 0;
+    display: flex;
+}
+.imagenes .maiz{
+    transform: translateY(-130px);
+    margin-top: 0;
+    display: flex;
+}
+.imagenes .patacon{
+    transform: translateY(-90px);
+    margin-top: 0;
+    display: flex;
+}
+.imagenes .salchicha{
+    transform: translateY(-20px);
+    margin-top: 0;
+    display: flex;
+}
+.imagenes .costilla{
+    transform: translateY(55px);
+    margin-top: 0;
+    display: flex;
+}
+.imagenes .papas2{
+    transform: translateY(75px);
+    margin-top: 0;
+    display: flex;
+}
+}
+@media screen and (max-width: 800px){
+    .contenedor{
+        max-width: 90%;
+        margin: auto;
+        border-style: dashed;
+    }
+    .barra{
+        position: absolute;
+        display: none;
+    }
+     .barra .logo{
+        width: 0px;  
+        display: grid;
+        
+    }
+    .barra .logo .logo-imagen{
+        width: 200px;
+        
+    }
+    
+    .arriba .titulos{
+        font-family:'Lobster', cursive;
+        width: 70%;
+    }
+    .titulos h1{
+        font-size: 30px;
+    }
+    .titulos p{
+        font-size: 45px;
+    }
+    .productos .productos1{
+        margin: none;
+    }
+    .productos .productos1 ul{
+        width: 90%;
+        margin-left: 0;
+    }
+    .productos .productos1 ul li img{
+        width: 10%;
+    }
+    .productos  .productos1 ul li h1{
+        display: inline-block;
+        font-size: 40px;
+    }
+    .productos .productos1 ul li h2{
+        display: inline-block;
+        font-size: 28px;
+    }
+    .bebidas_adicionales {
+        display: inline-flexbox;
+    }
+    .bebidas_adicionales .contenedor-bebidas .bebidas  h1{
+        font-size: 40px;
+    }
+    .bebidas_adicionales .adicionales  h1{
+        font-size: 40px;
+    }
+   .bebidas_adicionales .contenedor-bebidas .bebidas ul h1{
+    font-size: 30px;
+   }
+   .bebidas_adicionales .contenedor-bebidas .bebidas ul h2{
+    font-size: 30px;
+   }
+   .bebidas_adicionales .adicionales ul{
+       margin-left: 0;
+       width: 50%;
+   }
+   .bebidas_adicionales .adicionales ul h1 {
+       font-size: 20px;
+   }
+   .bebidas_adicionales .adicionales ul h2 {
+    font-size: 20px;
+   }
+   
+   .imagenes .alitas {
+    transform: translateY(-790px);
+    width: 150px;
+    margin-top: 0;
+   
+    
+}
+.imagenes .papas{
+    transform: translateY(-750px);
+    margin-top: 0;
+    
+}
+.imagenes .hamburguesa {
+    transform: translateY(-500px);
+    width: 120px;
+    margin-top: 0;
+}
+.imagenes .perro{
+    transform: translateY(-200px);
+    width: 150px;
+    margin-top: 0;
+}
+.imagenes .maiz{
+    transform: translateY(-130px);
+    margin-top: 0;
+}
+.imagenes .patacon{
+    transform: translateY(-80px);
+    margin-top: 0;
+    width: 120px;
+}
+.imagenes .salchicha{
+    transform: translateY(-30px);
+    margin-top: 0;
+    width: 120px;
+}
+.imagenes .costilla{
+    transform: translateY(55px);
+    margin-top: 0;
+}
+.imagenes .papas2{
+    transform: translateY(75px);
+    margin-top: 0;
+}
+} 
+
+@media screen and (max-width: 684px){
+    .contenedor{
+        max-width: 90%;
+        margin: auto;
+        border-style: dashed;
+    }
+    .logo{
+        float: none;
+    }
+    
+    .arriba .titulos{
+        font-family:'Lobster', cursive;
+        font-size: 20px;
+        width: 70%;
+        margin-top: 20px;
+    }
+    .titulos h1{
+        font-size: 30px;
+    }
+    .titulos p{
+        font-size: 40px;
+    }
+    .titulos h3{
+        font-family: 'Comic Neue', cursive;
+    }
+    .productos{
+        margin: none;
+    }
+    .productos ul{
+        width: 90%;
+        margin-left: 0;
+    }
+    .productos ul li img{
+        width: 10%;
+    }
+    .productos ul li h1{
+        display: inline-block;
+        font-size: 20px;
+    }
+    .productos ul li h2{
+        display: inline-block;
+        font-size: 15px;
+    }
+    .productos .combo2 h1{
+        font-size: 20px;
+    }
+    .bebidas_adicionales {
+        display: inline-flexbox;
+    }
+    .bebidas_adicionales .contenedor-bebidas .bebidas  h1{
+        font-size: 30px;
+    }
+    .bebidas_adicionales .adicionales  h1{
+        font-size: 30px;
+    }
+   .bebidas_adicionales .contenedor-bebidas .bebidas ul h1{
+    font-size: 20px;
+   }
+   .bebidas_adicionales .contenedor-bebidas .bebidas ul h2{
+    font-size: 20px;
+   }
+   .bebidas_adicionales .adicionales ul{
+       margin-left: 0;
+       width: 50%;
+   }
+   .bebidas_adicionales .adicionales ul h1 {
+       font-size: 20px;
+   }
+   .bebidas_adicionales .adicionales ul h2 {
+    font-size: 12px;
+   }
+   .imagenes .alitas {
+    transform: translateY(-1080px);
+    width: 150px;
+    margin-top: 0;
+    
+}
+.imagenes .papas{
+    transform: translateY(-1040px);
+    margin-top: 0;
+}
+.imagenes .hamburguesa {
+    transform: translateY(-750px);
+    width: 120px;
+    margin-top: 0;
+}
+.imagenes .perro{
+    transform: translateY(-370px);
+    width: 120px;
+    margin-top: 0;
+}
+.imagenes .maiz{
+    transform: translateY(-270px);
+    margin-top: 0;
+}
+.imagenes .patacon{
+    transform: translateY(-210px);
+    margin-top: 0;
+    width: 120px;
+}
+.imagenes .salchicha{
+    transform: translateY(-110px);
+    margin-top: 0;
+    width: 120px;
+}
+.imagenes .costilla{
+    transform: translateY(15px);
+    margin-top: 0;
+}
+.imagenes .papas2{
+    transform: translateY(55px);
+    margin-top: 0;
+}
+}
+@media screen and (max-width: 500px){
+    .contenedor{
+        max-width: 90%;
+        margin: auto;
+        border-style: dashed;
+    }
+    .logo{
+        float: none;
+        margin-left: 0;
+    }
+    .barra .logo .logo-imagen{
+        width: 150px;
+        
+    }
+    .arriba{
+        margin-bottom: 0;
+        
+    }
+    
+    .arriba .titulos{
+        font-family:'Lobster', cursive;
+        width: 67%;
+    }
+    .titulos h1{
+        font-size: 25px;
+    }
+    .titulos p{
+        font-size: 25px;
+    }
+    .titulos h3{
+        font-size: 25px;
+        font-family: 'Comic Neue', cursive;
+    }
+    
+    .bebidas_adicionales {
+        display: inline-flexbox;
+    }
+    .bebidas_adicionales .contenedor-bebidas .bebidas  h1{
+        font-size: 20px;
+    }
+    .bebidas_adicionales .adicionales  h1{
+        font-size: 20px;
+    }
+    .bebidas_adicionales .contenedor-bebidas .bebidas ul{
+        width: 50%;
+       }
+   .bebidas_adicionales .contenedor-bebidas .bebidas ul h1{
+    font-size: 12px;
+   }
+   .bebidas_adicionales .contenedor-bebidas .bebidas ul h2{
+    font-size: 12px;
+   }
+   .bebidas_adicionales .adicionales ul{
+       margin-left: 0;
+       width: 50%;
+   }
+   .bebidas_adicionales .adicionales ul h1 {
+       font-size: 12px;
+   }
+   .bebidas_adicionales .adicionales ul h2 {
+    font-size: 12px;
+}
+   .footer .visitanos span{
+        width: 10px;
+        font-size: 35px;  
+    }
+    .footer .visitanos h1{
+        font-size: 20px;  
+    }
+    .footer .visitanos h3{
+        font-size: 15px;  
+    }
+    .productos .productos1{
+       border: solid black;
+        display: block;
+        margin: none;
+    }
+    .productos .productos1 ul{
+        margin-left: 0;
+        display: inline;
+    }
+    .productos .productos1 ul li img{
+        width: 15%;
+    }
+    .productos .productos1 ul li h1{
+        display: inline-block;
+        font-size: 20px;
+    }
+    .productos .productos1 ul li h2{
+        display: inline-block;
+        font-size: 20px;
+    }
+    .productos .productos1 ul li ul li h1{
+        display: inline-block;
+        font-size: 2px;
+    }
+    .productos .combo2{
+        margin: auto;
+    }
+    .productos .combo2 h1{
+        display: inline-block;
+        font-size: 20px;
+    }
+    .productos .combo2 img{
+        display: inline-block;
+        width: 50px;
+    }
+    .contenido .imagenes{
+        display: none;
+    }
+}

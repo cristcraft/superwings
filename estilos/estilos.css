@@ -1,0 +1,154 @@
+
+*{
+	margin: 0;
+	
+}
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Ewert&family=Fascinate+Inline&family=Lobster&display=swap');
+/*PARA AÑADIR LAS FUENTES
+
+font-family: 'Cabin Sketch', cursive;
+font-family: 'Ewert', cursive;
+font-family: 'Fascinate Inline', cursive;
+font-family: 'Lobster', cursive;
+
+*/
+body{
+	margin: 0;
+    padding: 0;
+    background: url('../imagenes/fondo.webp') no-repeat center top;
+    background-size: cover;
+	background-attachment: fixed;
+    
+}
+img{
+	width:70%;
+}
+.logo1 img{
+	width: 55%;
+}
+.contenedor{
+	background-color: black;
+}
+.contenido{
+	width: 100%;
+	height: 100%;
+}
+.contenido .logo{
+	width: 150px;
+	transition: transform .7s ease-in-out;
+	font-size: 50px;
+	color: black;
+}
+.logo .logo-imagen{
+	width: 150px;
+	cursor: pointer;
+
+}
+.mostrar {
+	transition: transform 1.5s ease-in-out;
+	transform: translateX(300px) ;
+	background: none;
+	
+}
+.mostrar .logo{
+	transition: transform .5s ease-in-out;
+	transform: translateX(-300px) ;
+}
+
+.barra{
+	margin-top: 20px;
+	transition: transform .7s ease-in-out;
+	position: fixed;
+	
+	
+}
+.barra ul{
+	transform: translateX(-300px);
+	list-style: none;
+	text-align: left;
+	font-size: 20px;
+	color: white;
+	height: 100%;
+	background-color: #175090;
+	margin-left: -40px;
+	border-bottom-right-radius: 50px;
+	border-top-right-radius: 50px;	
+}
+
+.barra li a:hover {
+	background-color: #f88704;
+	background-position-x: left;
+	color: black;
+	margin: 0;
+	border-bottom-right-radius: 50px;
+	border-top-right-radius: 50px;	
+}
+
+.barra a{
+	list-style-type: none;
+	text-decoration: none;
+	display: block;
+	padding: 20px;
+	color: white;	
+}
+.barra span{
+	margin-left: 10px;
+	color: white;
+}
+.barra ul li ul{
+	display: none;
+	
+}
+.barra ul li:hover ul{
+	display: block;
+	transform: translateX(0px);
+	width: 100%;
+}
+.barra ul li:hover ul li a:hover{
+	display: block;
+	background-color: #f88704;
+	border-radius: 100px ;
+}
+.barra ul li:hover ul li{
+
+	margin-left: 12px;
+}
+.contenido .info{
+	color: whitesmoke;	
+	
+}
+.footer{
+	color: white;
+    text-align: center;
+	margin: 20px auto;
+
+}
+.footer .visitanos{
+	margin-top: 50px ;
+}
+.footer .visitanos a{
+	color: white;
+    display: inline-block;
+    text-decoration: none;
+}
+.footer .visitanos{
+    text-align: center;
+}
+.footer .visitanos span{
+	margin: 20px auto;
+    font-size:50px;
+    display: inline-block;
+    margin-right: 40px;
+}
+@media screen and (max-width:500px){
+	.footer .visitanos span{
+        width: 10px;
+        font-size: 35px;  
+    }
+    .footer .visitanos h1{
+        font-size: 20px;  
+    }
+    .footer .visitanos h3{
+        font-size: 15px;  
+    }
+}

@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Ewert&family=Fascinate+Inline&family=Lobster&display=swap');
+/*PARA AÑADIR LAS FUENTES
+
+font-family: 'Cabin Sketch', cursive;
+font-family: 'Ewert', cursive;
+font-family: 'Fascinate Inline', cursive;
+font-family: 'Lobster', cursive;
+
+*/
+
+/*Pagina de inicio*/
+.contenido .barra .logo{
+	font-size: 50px;
+	color: black;
+}
+.contenido .logo1 img{
+	display: block;
+	margin: 50px auto;	
+}
+.contenido.botones button{
+	margin-top: 40px ;
+	text-align: center;
+
+}
+.botones{
+	display: block;
+	margin: 150px auto;
+	width: fit-content;
+}
+.botones .btn{
+	color: white;
+	background-color: #FF8700;
+	border-color:  #FFEC00;
+	border-radius: 15px;
+	border-width: 5px;
+	width: 350px;
+	height: 50px;
+	text-decoration: none;
+}
+.botones .btn:hover{
+	background-color: #34ACFF;
+	border-color: #34ACFF;
+}
+
+.btn a:hover{
+	color: white;
+}
+button span{
+	margin-left: 10px;
+	text-decoration: none;
+}
+
+.info{
+	display: block;
+	margin-top: 50px;
+	width: 50%;
+	color: white;
+	font-family: 'Lobster', cursive;
+	font-size: 60px;
+	display: block;
+	margin: auto;
+	margin-top: 50px;
+}
+.imagenes img{
+	width: 70%;
+	display: block;
+	margin: auto;
+	margin-top: 50px;
+}
+
+/*Estilos pagina Menu y cartas de productos*/
+
+.contenedor{
+	color: white;
+	margin-left: 200px;
+}
+.contenedor .productos{
+	position: relative;
+	display: inline;
+	margin-left: 50px;
+}
+
+
+.contenedor .productos .card{
+	position: relative;
+	width: 320px;
+	height: 450px;
+	background-color: #232323;
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+
+.contenedor .productos .card h1{
+	display: none;
+	position: absolute;
+}
+.contenedor .productos .card:hover h1{
+	display: grid;
+	text-align: center;
+	font-family: 'Cabin Sketch', cursive;
+	text-align: center;
+	margin-left: 30%;
+}
+.contenedor .productos .card .titulos-menus p{
+	display: grid;
+	text-align: center;
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 50px;
+	text-align: center;
+	margin-left: 20%;
+	position: absolute;
+	}
+.contenedor .productos .card:hover .titulos-menus p{
+	display: none;
+	transform: translate(-50%, -50%);
+}
+
+.contenedor .productos .card:before{
+    content: '';
+    font-family: 'Cabin Sketch', cursive;
+	text-align: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+    background: green;
+	clip-path: circle(150px at 110% 20%);
+	transition: .5s ease-in-out;
+	font-size: 30px;
+}
+.contenedor .productos .card:hover:before{
+	clip-path: circle(140px at 50% -20%);
+	position: absolute;
+}
+
+.contenedor .productos .card .imgBox{
+	position: absolute;
+	transform: translateY(50%);
+	z-index: 10000;
+	width: 100%;
+	height: 220px;
+	transition: .5s;
+}
+.contenedor .productos .card:hover .imgBox{
+	top: 0%;
+	transform: translateY(50px);
+}
+.contenedor .productos .card .imgBox img{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 270px;
+	border-radius: 20px;
+}
+.contenedor .productos .card .contentBx{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 0;
+	text-align: center;
+	transition: .7s;
+    z-index: 10;
+    font-family: 'Cabin Sketch', cursive;
+}
+.contenedor .productos .card:hover .contentBx{
+	height: 150px;
+}
+.contenedor .productos .card .menus p{
+	text-align: center;
+	margin-top: 50% ;
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 50px;
+	position: absolute;
+}
+.contenedor .productos .card .contentBx h2{
+	position: relative;
+	font-weight: 600;
+	letter-spacing: 1px;
+	color: #fff;
+}
+.contenedor .productos .card .contentBx .precio{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 8px 20px;
+	transition: .5s;
+}
+/*ESRILOS MENUS*/
+.contenedor-menus{
+	color: white;
+	margin-left: 200px;
+}
+.contenedor-menus .productos{
+	position: relative;
+	display: inline;
+	margin-left: 50px;
+}
+
+
+.contenedor-menus .productos .card{
+	position: relative;
+	width: 320px;
+	height: 450px;
+	background-color: #232323;
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+
+
+.contenedor-menus .productos .card:before{
+    content: '';
+    font-family: 'Cabin Sketch', cursive;
+	text-align: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+    background: green;
+	clip-path: circle(150px at 110% 20%);
+	transition: .5s ease-in-out;
+	font-size: 30px;
+}
+.contenedor-menus .productos .card:hover:before{
+	clip-path: circle(140px at 50% -20%);
+	position: absolute;
+}
+
+.contenedor-menus .productos .card .contentBx{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 0;
+	text-align: center;
+	transition: .7s;
+    z-index: 10;
+	font-family: 'Cabin Sketch', cursive;
+	transform: translateX(-260px);
+}
+.contenedor-menus .productos .card:hover .contentBx{
+	height: 100px;
+}
+.contenedor-menus .productos .card .menus p{
+	text-align: center;
+	margin-top: 50% ;
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 50px;
+	position: absolute;
+}
+.contenedor-menus .productos .card .contentBx button{
+	position: relative;
+	font-size: 30px;
+	letter-spacing: 1px;
+	color: black;
+	float: left;
+	width: 80%;
+	border-radius: 50px;
+}
+
+/*Pagina Combos*/
+.titulo {
+    width: 50%;
+    background-color: #005090;
+    color: #ffee00;
+    border-color: #bf5040;
+    border-radius: 250px;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    font-family: 'Cabin Sketch', cursive;
+    border-width: 2px;
+}
+.contenedor{
+	transform: translatex(-2000px);
+	transition: transform .5s ease-in-out;
+}
+.contenedor .menu{
+	transform: translatex(0px);
+}
+.supercombos{
+	transform: translateX(0);
+	transition: transform .5s ease-in-out;
+}
+.bebidas{
+	transform: translateX(0);
+	transition: transform .5s ease-in-out;
+}
+.btn-supercombos{
+	margin-left: 300px;
+}
+.lista1{
+    display: inline-block;
+    
+}
+.lista2{
+    display: inline-block;
+	margin-left: 50px;
+	
+}
+.lista3{
+    display: inline-block;
+    margin-left: 50px;
+    
+}
+.lista4{
+    display: inline-block;
+    margin-left: 50px;
+   
+}
+
+/*Pagina Reservas*/
+.contenedor-reservas{
+	margin-left: 160px;
+	color: white;
+}
+@media screen and (max-width: 900px){
+	/*Pagina inicio*/
+	.contenido .logo img{
+		width: 100%;
+	}
+	.barra{
+		width: 122px;
+	}
+	.barra ul{
+		font-size: 20px;
+		margin-left: -55px;
+	}
+	body{
+		margin: 0
+	}
+	
+	.contenido .logo1 img{
+		margin-top: 1%;
+		width: 100%;
+		margin: 50px auto;
+	}
+	.contenido .botones{
+		width: 80%;
+	}
+	.contenido .botones .btn{
+		width: 100%;
+		margin-top: 20px;
+	}
+	.contenido .info p{
+		font-size: 50px;
+	}
+	.contenido .imagenes{
+		margin-left: 0;
+		
+	}
+	.contenido .imagenes img{
+		margin-top: 40px;
+		width: 100%;
+
+	}
+	.contenido .info{
+		margin-top: 40px;
+		width: 100%;
+	}
+	.contenido .info p{
+		text-align: center;
+	}
+	
+}
+@media screen and (max-width: 500px){
+	body{
+		margin: 0
+	}
+	.contenido .barra .logo{
+		margin-top: -85px;	
+	}
+	
+	.contenido .logo1 img{
+		margin-top: 20%;
+		width: 100%;
+	}
+	.contenido .botones .btn{
+		width: 100%;
+		margin-top: 20px;
+	}
+	.contenido .info p{
+		font-size: 50px;
+	}
+	.contenido .imagenes img{
+		margin-top: 40px;
+		width: 100%;
+
+	}
+	.contenido .info{
+		margin-top: 40px;
+		width: 100%;
+	}
+	.contenido .info p{
+		text-align: center;
+	}
+	
+}
