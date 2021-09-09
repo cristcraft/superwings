@@ -7,3 +7,4 @@ se puede optimisar mas y en una futura version hare estos cambios
 4. Consiste en una pagina web de un restaurante de comida rapida llamado superwings, en donde se podra hacer una reserva la cual esta conectada a una base de datos
 en el host de "00WebHost", conexion realizada por medio de PHP 100% funcional
 5. El proyecto fue realizado en el año 2020 y modificado durante el año 2021.
+6. Links para ver el proyecto: https://cristcraft.github.io/superwings/ o https://superwings.000webhostapp.com/
